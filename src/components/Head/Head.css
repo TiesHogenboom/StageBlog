@@ -1,5 +1,4 @@
 .headerImage{
-    background:#ef0404;
     width:97.5rem;
     min-height: 18rem;
     height:10px;
@@ -8,4 +7,24 @@
     background:#313069;
     width:97.5rem;
     min-height: 3.8rem;
+}
+.tabNavbar{
+    flex-direction: column;
+}
+
+.tab{
+    display: inline-block;
+    line-height: 3.6rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: .2rem 1.5rem 0;
+    color:white;
+    text-decoration: none;
+    outline-color:red;
+    outline:25px;
+}
+
+a:hover {
+    border-top-width: 2px;
+    padding-top: 0;
 }
