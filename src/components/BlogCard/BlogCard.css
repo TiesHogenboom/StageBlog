@@ -1,0 +1,13 @@
+.BlogCard__img{
+    width:16.8rem;
+    height:16.8rem;
+}
+
+.BlogCard__title{
+    color:white;
+    width: 16.8rem;
+}
+
+.BlogCard__list{
+    display:grid;
+}
